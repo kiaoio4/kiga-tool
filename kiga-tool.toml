@@ -7,3 +7,14 @@ port = 3306
 timeZone = "Local"
 maxIdleConns = 8
 maxOpenConns = 16
+
+[redis]
+address = "localhost:6379"
+db = 0
+password = ""
+maxIdle = 32
+maxActive = 32
+idleTimeout = 1000
+connTimeout = 1000
+wait = false
+maxConnLifetime = 3600
