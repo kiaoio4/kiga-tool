@@ -1,0 +1,9 @@
+[mysql]
+db = "message"
+user = "root"
+password = "hello123"
+host = "192.168.8.245"
+port = 3306
+timeZone = "Local"
+maxIdleConns = 8
+maxOpenConns = 16
